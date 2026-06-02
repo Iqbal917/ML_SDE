@@ -9,7 +9,7 @@ class Notification(ABC):
 # Concrete Class 
 class EmailNotification(Notification):
     def send(self, message: str) -> None:
-        print(f"EMAIL: {message}")
+        print(f"Email: {message}")
 
 
 class SMSNotification(Notification):
