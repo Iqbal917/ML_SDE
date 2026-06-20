@@ -78,7 +78,10 @@ $$RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}$$
 Also known as the Coefficient of Determination, the $R^2$ score represents the proportion of the variance in the dependent variable that is predictable from the independent variables. It compares your model to a simple "baseline" model that just predicts the average every time.
 
 **Formula:**
-$$R^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2}$$
+
+$$
+R^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2}
+$$
 
 **Understanding the Terms:**
 * **Numerator (Residual Sum of Squares - RSS)**: $\sum (y_i - \hat{y}_i)^2$. This is the total squared error of your model. It represents the variance in the data that your model *failed* to explain.
