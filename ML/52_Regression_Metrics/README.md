@@ -95,4 +95,4 @@ $$Adjusted\ R^2 = 1 - \frac{(1 - R^2)(n - 1)}{n - p - 1}$$
 | **MSE** | When you want to heavily penalize large errors or are training an optimization algorithm. | High | No (Squared) |
 | **RMSE** | When you want to penalize large errors but need the metric to be in the original units. | High | Yes |
 | **$R^2$** | When you need a quick, scale-less baseline of how well your model explains the data variance. | Moderate | No (Ratio) |
-| **Adj. $R^2$**| When you are doing feature selection and comparing models with different numbers of predictors. | Moderate | No (Ratio) |
+| **$R^2_{adjusted}$**| When you are doing feature selection and comparing models with different numbers of predictors. | Moderate | No (Ratio) |
