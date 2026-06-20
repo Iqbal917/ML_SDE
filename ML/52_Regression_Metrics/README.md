@@ -65,7 +65,8 @@ $$RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}$$
 Also known as the Coefficient of Determination, the $R^2$ score represents the proportion of the variance in the dependent variable that is predictable from the independent variables. It provides an indication of the goodness of fit of a set of predictions to the actual values.
 
 **Formula:**
-$$R^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2}$$
+R^2 = 1 - \frac{\sum_{i=1}^{n}(y_i-\hat{y}_i)^2}
+{\sum_{i=1}^{n}(y_i-\bar{y})^2}
 
 *Note: The denominator is the total sum of squares (variance of the data), and the numerator is the residual sum of squares (variance explained by the model).*
 
