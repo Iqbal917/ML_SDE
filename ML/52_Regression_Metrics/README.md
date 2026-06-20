@@ -30,6 +30,7 @@ Throughout the formulas below, we use the following standard mathematical notati
 MAE measures the average magnitude of the errors in a set of predictions, without considering their direction. It is the average of the absolute differences between prediction and actual observation.
 
 **Formula:**
+
 $$
 MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
 $$
@@ -49,6 +50,7 @@ $$
 MSE measures the average of the squares of the errors. By squaring the errors before averaging them, MSE gives a relatively high weight to large errors, heavily penalizing models that make large mistakes.
 
 **Formula:**
+
 $$
 MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
 $$
@@ -67,6 +69,7 @@ $$
 RMSE is the square root of the MSE. It serves the same purpose as MSE but brings the metric back to the original unit of the target variable.
 
 **Formula:**
+
 $$
 RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}
 $$
@@ -105,6 +108,7 @@ $$
 The Adjusted $R^2$ modifies the standard $R^2$ score to account for the number of predictors in the model. It penalizes the addition of features that do not improve the model's explanatory power.
 
 **Formula:**
+
 $$
 R^2_{adjusted} = 1 - \frac{(1 - R^2)(n - 1)}{n - p - 1}
 $$
