@@ -195,7 +195,7 @@ $$
 
 $$\frac{\partial J}{\partial \beta_1} = -2\sum_{i=1}^n x_i(y_i - \beta_0 - \beta_1 x_i) = 0$$
 
-$$\implies \sum x_i y_i - \beta_0 \sum x_i - \beta_1 \sum x_i^2 = 0 \tag{ii}$$
+$$\implies \sum x_i y_i - \beta_0 \sum x_i - \beta_1 \sum x_i^2 = 0 \qquad (ii)$$
 
 **Step 3 — Substitute (i) into (ii)** to eliminate $\beta_0$:
 
