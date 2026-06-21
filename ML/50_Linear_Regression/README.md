@@ -188,10 +188,7 @@ This is exactly the MSE cost function (up to the constant $1/n$, which doesn't a
 $$\frac{\partial J}{\partial \beta_0} = -2\sum_{i=1}^n (y_i - \beta_0 - \beta_1 x_i) = 0$$
 
 $$
-\implies \sum y_i - n\beta_0 - \beta_1 \sum x_i = 0
-\implies
-\boxed{\beta_0 = \bar y - \beta_1 \bar x}
-\qquad (i)
+\implies \sum y_i - n\beta_0 - \beta_1 \sum x_i = 0 \implies \boxed{\beta_0 = \bar y - \beta_1 \bar x} \qquad (i)
 $$
 
 **Step 2 — Partial derivative with respect to $\beta_1$, set to zero:**
